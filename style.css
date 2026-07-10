@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ff914d,#ff4d8d,#7b2cbf);
+    min-height:100vh;
+}
+
+.navbar{
+    background:white;
+    padding:18px 50px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.nav-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.brand{
+    font-size:32px;
+    font-weight:bold;
+    color:#7b2cbf;
+    text-decoration:none;
+}
+
+.nav-links a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#444;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#ff4d8d;
+}
+
+.btn-login{
+    text-decoration:none;
+    color:#7b2cbf;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+.btn-signup{
+    text-decoration:none;
+    background:#ff4d8d;
+    color:white;
+    padding:10px 20px;
+    border-radius:25px;
+}
+
+.hero{
+    padding:90px 0;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero h1{
+    color:white;
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:white;
+    font-size:22px;
+    width:60%;
+    line-height:1.7;
+}
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    margin-right:15px;
+}
+
+.btn-accent{
+    background:#ffd60a;
+    color:#222;
+}
+
+.btn-outline{
+    border:2px solid white;
+    color:white;
+}
+
+.page{
+    padding:60px 0;
+    background:#fff8f3;
+}
+
+h2{
+    text-align:center;
+    color:#7b2cbf;
+    margin-bottom:40px;
+    font-size:38px;
+}
+
+.grid{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:250px;
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+    transition:.3s;
+}
+
+.card:nth-child(1){
+    border-top:8px solid #ff4d8d;
+}
+
+.card:nth-child(2){
+    border-top:8px solid #00c897;
+}
+
+.card:nth-child(3){
+    border-top:8px solid #ff914d;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#7b2cbf;
+    margin:15px 0;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
+}
+
+footer{
+    background:#7b2cbf;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
